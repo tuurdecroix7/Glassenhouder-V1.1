@@ -1,0 +1,16 @@
+difference(){
+translate([0,0,13])
+    cube([260,180,13]);
+translate([50,50,0])
+    cylinder(30,32,32);
+translate([50,130,0])
+    cylinder(30,32,32);
+translate([130,50,0])
+    cylinder(30,32,32);
+translate([130,130,0])
+    cylinder(30,32,32);
+translate([210,50,0])
+    cylinder(30,32,32);
+translate([210,130,0])
+    cylinder(30,32,32);}
+cube([260,180,13]);
